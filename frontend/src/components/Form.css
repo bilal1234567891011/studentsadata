@@ -1,0 +1,51 @@
+/* .Inputs-main label{
+    margin-top: 1rem;
+} */
+
+.Inputs-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.Inputs-main select{
+    padding: 9px ;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+   outline: none;
+   margin-top: 1rem;
+   border-radius: 6px;
+   margin-right: 2rem;
+   width: 30rem;
+
+}
+/* .Inputs-main input{
+    padding: 5px ;
+    /* box-sizing: border-box; */
+    /* border: 3px solid #ccc;
+   outline: none; */
+   /* border-bottom: 2px solid red; */
+   /* margin-top: 1rem;
+   border-radius: 6px;
+   margin-right: 2rem;
+   width: 23rem;
+ 
+} */
+
+
+.FormLable{
+    font-family:-webkit-body;
+    color: rgba(94,114,141,255);
+    font-size:1.3rem;
+}
+.FormControl{
+    height:2rem;
+    width:22rem;
+}
+
+
+.btn1-register{
+    background-color:#2ddf2d ;
+    color: white;
+    width:9rem ;
+    height: 2.8rem;
+}

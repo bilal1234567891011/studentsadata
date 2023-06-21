@@ -1,0 +1,71 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: 0; 
+}
+
+.Home-Frow{
+    width: 100%;
+    display: flex;
+justify-content: space-between;
+margin-top: 2rem;
+}
+
+.Search-main{
+    margin-left: 4rem;
+}
+.Search-main input{
+   padding: 9px ;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+   outline: none;
+   border-radius: 6px;
+
+}
+
+.Search-main button{
+    margin-left: 1rem;
+    background-color:#b13738;
+    border-radius: 6px;
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    border: none;
+  
+}
+.Add-main{
+    margin-right: 2rem;
+}
+
+.Add-main button{
+    margin-left: 1rem;
+    background-color:#b13738;
+    color: white;
+    width: 7rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 6px;
+
+}
+.content-main{
+    display: flex;
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+}
+.Form-Home{
+    width: 50%;
+    /* border: #b13738 1px solid; */
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Table-Main{
+    width: 48%;
+    /* border: #b13738 1px solid; */
+    margin-top: 2rem;
+
+    /* align-items: center;
+    justify-content: center; */
+}
